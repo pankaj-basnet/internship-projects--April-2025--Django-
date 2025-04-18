@@ -20,6 +20,8 @@ users = [ "pankaj", "luckey", "biraj","biraj"]
 rooms = [ "python", "node", "data",  "data"]
 print(users)
 print(rooms)
+
+{"python" : ("luckey", "pankaj")}
 print('----------')
 
 users_in_room_init  = zip(users, rooms)

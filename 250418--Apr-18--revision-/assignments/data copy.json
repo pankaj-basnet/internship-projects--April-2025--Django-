@@ -1,0 +1,38 @@
+[
+    {
+        "title": "python",
+        "due_date": "18/04/26, 16:03:",
+        "priority": "low",
+        "is_completed": false
+    },
+    {
+        "title": "django",
+        "due_date": "18/04/25, 16:03:",
+        "priority": "high",
+        "is_completed": true
+    },
+    {
+        "title": "python",
+        "due_date": "18/04/29, 16:03:",
+        "priority": "low",
+        "is_completed": false
+    },
+    {
+        "title": "python",
+        "due_date": "18/04/25, 16:11:",
+        "priority": "low",
+        "is_completed": false
+    },
+    {
+        "title": "python",
+        "due_date": "18/04/25, 16:16:",
+        "priority": "low",
+        "is_completed": false
+    },
+    {
+        "title": "python",
+        "due_date": "18/04/25, 16:16:",
+        "priority": "low",
+        "is_completed": false
+    }
+]
