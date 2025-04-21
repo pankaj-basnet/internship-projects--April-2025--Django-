@@ -69,6 +69,14 @@ Features:
     Load existing inventory on startup
 
 
+"""
+same date task ------ to group --- datewise
+date -sort
+
+completed -- incomplete
+
+"""
+
 # Assignment - 5
 Movie Watchlist Tracker
 
@@ -96,7 +104,7 @@ Features:
 
     View streak for each habit
 
-    Store data in .json
+    Store data in .txt or .json (sn=)
 
     Use datetime for streak calculation
 

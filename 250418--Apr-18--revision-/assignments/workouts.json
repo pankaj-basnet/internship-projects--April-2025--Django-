@@ -1,0 +1,17 @@
+[
+  {
+    "type": "hiking",
+    "duration": 10,
+    "date": "2025-04-21"
+  },
+  {
+    "type": "Running",
+    "duration": 45,
+    "date": "2025-04-21"
+  },
+  {
+    "type": "Running",
+    "duration": 45,
+    "date": "2025-04-21"
+  }
+]

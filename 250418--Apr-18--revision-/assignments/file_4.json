@@ -1,0 +1,14 @@
+[
+    {
+        "name": "rice",
+        "quantity": 50,
+        "price": 100,
+        "total": 5000
+    },
+    {
+        "name": "dal",
+        "quantity": 10,
+        "price": 150,
+        "total": 1500
+    }
+]

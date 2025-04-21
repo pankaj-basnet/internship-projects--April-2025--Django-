@@ -33,6 +33,7 @@ else:
         todays_expense_total = 0
         
         for row in expense_reader:
+            print(row)
             if row["date"] == today_string:
                 todays_expense_total += int(row["amount"])
                 print(todays_expense_total)
