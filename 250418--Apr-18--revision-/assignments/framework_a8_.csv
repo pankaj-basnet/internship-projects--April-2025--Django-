@@ -1,0 +1,4 @@
+id,topic,start date,subscribed,due date,price_in_yen,finished date,coding_duration
+1,replace_topic,2025-04-16 20:30:00,False,2025-05-16 20:30:00,20000,2025-04-26 19:15:00,"9 days, 22:45:00"
+2,django,2025-04-10 20:30:00,False,2025-04-17 20:30:00,99999,2025-04-26 19:15:00,"15 days, 22:45:00"
+3,data science,2025-04-01 20:30:00,False,2025-04-08 20:30:00,175500.5,2025-05-26 19:15:00,"54 days, 22:45:00"
