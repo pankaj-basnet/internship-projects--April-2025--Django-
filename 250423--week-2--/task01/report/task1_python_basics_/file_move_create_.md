@@ -56,22 +56,6 @@ Certainly! Let's delve into a comprehensive explanation of your Python script, e
 
 ## 2. Syntax Definitions and Examples
 
-### List Comprehension
-
-**Syntax**:
-```python
-[expression for item in iterable if condition]
-```
-
-**Example from Script**:
-```python
-[b for b in books if keyword.lower() in b['name']]
-```
-
-**Explanation**:
-- Iterates over each `b` in `books`.
-- Converts `keyword` to lowercase and checks if it's in `b['name']`.
-- Includes `b` in the resulting list if the condition is met.
 
 ### String Formatting with f-Strings
 
@@ -190,3 +174,46 @@ if folder.is_dir() and folder.name == f"{type}":
 4. **User Feedback**:
    - **Current**: The script provides basic feedback via `print()` statements.
    - **Suggestion**: Enhance user feedback with more detailed messages, including the number 
+
+
+
+---
+---
+---
+
+
+
+
+---
+---
+---
+https://stackoverflow.com/questions/39318106/why-can-generator-expressions-be-iterated-over-only-once
+
+
+---
+---
+---
+
+
+
+---
+---
+---
+
+
+
+---
+---
+---
+
+
+
+---
+---
+---
+
+
+
+---
+---
+---
