@@ -40,6 +40,8 @@ class CodingRecord:
         try:
             with open(filename_of_csv, 'r', newline='') as file:
                 reader = csv.DictReader(file)
+
+                # get "no. of days or (make no. of hours later) from string "coding_duration"
                 durations = [float(entry.get("coding_duration")[:2]) for entry in reader]
                 return sum(durations) / len(durations) if durations else 0.0
         except Exception as e:
@@ -49,9 +51,12 @@ class CodingRecord:
     def calculate_streak(self):
         try:
             if not self.finished_date:
+                print("since you didnot put finished date, streak will become 0. Do you want to input data again?")
                 return 0
 
             if (datetime.now() - self.finished_date) < timedelta(days=1):
+                print("you have started and finished another coding session or habit too soon (within 24 hours). ")
+                print("streak = 0 . Do you want to report this bug to developer? (software error)")
                 return 0
 
             previous_codings = search_codings(self.topic)
@@ -79,7 +84,7 @@ class CodingRecord:
                     print("------------------")
                     streak += 1
                 else:
-                    print("----")
+                    # print(f" streak from {finished_codings[i]} calculated . Current streak is {streak} ")
                     break
 
             return streak
@@ -97,11 +102,14 @@ class CodingRecord:
             "subscribed": self.subscribed,
             "due date": self.due_date.strftime("%Y-%m-%d %H:%M:%S"),
             "average_coding_time": self.average_coding_time,
+
+            # if finished date is None, change to empty string to write to csv.( to avoid error mb=)
             "finished date": self.finished_date.strftime("%Y-%m-%d %H:%M:%S") if self.finished_date else "",
             "streak": self.streak,
             "coding_duration": self.coding_duration
         }
 
+    ### not necessary until now because DictReader has all data as list of dictionaries
     @staticmethod
     def from_dict(data):
         return CodingRecord(

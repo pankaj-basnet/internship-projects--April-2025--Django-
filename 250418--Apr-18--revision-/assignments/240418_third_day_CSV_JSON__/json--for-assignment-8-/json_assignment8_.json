@@ -1,0 +1,54 @@
+[
+   
+    {
+        "id": 4,
+        "topic": "StreamIO",
+        "language": "Python",
+        "start date": "2025-04-16 09:30:00",
+        "subscribed": true,
+        "due date": "2025-05-10 09:30:00",
+        "average_coding_time": 2.2,
+        "finished date": "2025-04-21 11:00:00",
+        "streak": 2,
+        "coding_duration": 4,
+        "finished_dates": [
+            [
+                "2025-04-21 11:00:00"
+            ]
+        ]
+    },
+    {
+        "id": 5,
+        "topic": "ClassCSVHandler",
+        "language": "Python",
+        "start date": "2025-04-17 14:15:00",
+        "subscribed": false,
+        "due date": "2025-05-20 14:15:00",
+        "average_coding_time": 1.5,
+        "finished date": "2025-04-22 16:45:00",
+        "streak": 3,
+        "coding_duration": 6,
+        "finished_dates": [
+            [
+                "2025-04-22 16:45:00"
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "topic": "LLM",
+        "language": "python",
+        "start date": "2025-04-15 10:00:00",
+        "subscribed": true,
+        "due date": "2025-05-15 10:00:00",
+        "average_coding_time": 0.0,
+        "finished date": "2025-04-20 14:00:00",
+        "streak": 1,
+        "coding_duration": 5,
+        "finished_dates": [
+            [
+                "2025-04-20 14:00:00"
+            ]
+        ]
+    }
+]
