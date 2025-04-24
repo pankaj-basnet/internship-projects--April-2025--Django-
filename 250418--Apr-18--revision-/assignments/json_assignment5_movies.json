@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Interstellar",
+        "genre": "Science Fiction",
+        "watch_status": true,
+        "added_date": "2025-04-24 15:21:52"
+    },
+    {
+        "id": 1,
+        "title": "Django unchained",
+        "genre": "Documentary",
+        "watch_status": false,
+        "added_date": "2025-04-24 15:23:02"
+    },
+    {
+        "id": 2,
+        "title": "Interstellar",
+        "genre": "Science Fiction",
+        "watch_status": false,
+        "added_date": "2025-04-24 15:23:02"
+    }
+]

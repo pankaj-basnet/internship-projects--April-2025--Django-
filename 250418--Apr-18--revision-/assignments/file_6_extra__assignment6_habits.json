@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "habit": "Exercise",
+        "frequency": "daily",
+        "created_date": "2025-04-20 10:00:00",
+        "history": [
+            "2025-04-21",
+            "2025-04-22",
+            "2025-04-24"
+        ],
+        "streak": 3
+    },
+    {
+        "id": 1,
+        "habit": "Exercise",
+        "frequency": "daily",
+        "created_date": "2025-04-20 10:00:00",
+        "history": [
+            "2025-04-21",
+            "2025-04-22"
+        ],
+        "streak": 2
+    },
+    {
+        "id": 1,
+        "habit": "Exercise",
+        "frequency": "daily",
+        "created_date": "2025-04-20 10:00:00",
+        "history": [
+            "2025-04-21",
+            "2025-04-22"
+        ],
+        "streak": 2
+    }
+]

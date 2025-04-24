@@ -29,22 +29,33 @@ from datetime import datetime
 print("=======================================")
 
 
+# coding_record = CodingRecord(
+#     topic="sundayProject",
+#     language = "python",
+#     start_date=datetime(2025, 4, 10, 20, 30, 0),
+#     subscribed=False,
+#     # price_in_yen=175500.50,
+#     finished_date =datetime(2025, 4, 21, 20, 15, 0)
+# )
+# append_coding_record(coding_record)
+
+
 coding_record = CodingRecord(
     topic="sundayProject",
     language = "python",
     start_date=datetime(2025, 4, 10, 20, 30, 0),
     subscribed=False,
     # price_in_yen=175500.50,
-    finished_date =datetime(2025, 4, 26, 19, 15, 0)
+    finished_date =datetime(2025, 4, 22, 22, 15, 0)
 )
 append_coding_record(coding_record)
 
 coding_record = CodingRecord(
-    topic="sundayProjectTWO",
+    topic="sundayProject",
     language = "java",
     start_date=datetime(2025, 4, 1, 20, 30, 0),
     subscribed=False,
-    finished_date =datetime(2025, 4, 20, 19, 15, 0)
+    finished_date =datetime(2025, 4, 23, 24, 15, 0)
 )
 append_coding_record(coding_record)
 

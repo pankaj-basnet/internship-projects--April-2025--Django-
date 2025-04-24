@@ -22,6 +22,10 @@ filepath = 'foldercreation/moveit.txt'  # Placeholder: Not used in final logic
 destination = 'foldercreation/destination/'
 source = './foldercreation'
 
+import os
+current_file_path = os.path.abspath(__file__)
+print(current_file_path)
+
 # Convert destination to Path object for iteration
 destination2 = Path(destination)
 print(destination2.name)  # prints folder name only

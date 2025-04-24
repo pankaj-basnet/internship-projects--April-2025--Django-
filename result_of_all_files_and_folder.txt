@@ -1,0 +1,929 @@
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+<!-- D:\GROW_CTS\PRESENTATIONS--\ASSIGNMENTS--COPIED--FROM_250424_\todo--from--250418--with-REPORT---day-3--day3-also-included-in-week2--.md -->
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+# Week 1- Day Three - Revision
+# also , in week 2
+
+# Assignment - 1
+To-Do List Manager
+
+Features:
+
+    Add a task (title, due date, priority)
+
+    Mark task as completed
+
+    List pending/completed tasks
+
+    Store tasks in a .json or .csv file
+
+    Load tasks on app start
+
+
+# Assignment - 2
+Library Book Tracker
+
+Features:
+
+    Add a book (title, author, genre, borrowed date)
+
+    Mark book as returned
+
+    List currently borrowed books
+
+    Show overdue books (based on borrow date)
+
+    Store in .csv file
+
+
+# Assignment - 3
+Workout Logger
+
+Features:
+
+    Log a workout (type, duration in minutes, date)
+
+    View total minutes worked out today/this week
+
+    List all logged workouts
+
+    Store in .json file
+
+    Use datetime for calculations
+
+
+# Assignment - 4
+Simple Inventory Manager
+
+Features:
+
+    Add product (name, quantity, price)
+
+    Update product quantity
+
+    View product list with total value
+
+    Store in .csv file
+
+    Load existing inventory on startup
+
+
+"""
+same date task ------ to group --- datewise
+date -sort
+
+completed -- incomplete
+
+"""
+
+# Assignment - 5
+Movie Watchlist Tracker
+
+Features:
+
+    Add a movie (title, genre, watch status)
+
+    Mark as watched
+
+    Search by genre
+
+    List all unwatched movies
+
+    Store in .json
+
+
+# Assignment - 6
+Habit Tracker
+
+Features:
+
+    Add a habit (name, frequency: daily/weekly)
+
+    Mark habit as done for today
+
+    View streak for each habit
+
+    Store data in .txt or .json (sn=)
+
+    Use datetime for streak calculation
+
+
+# Assignment - 7
+CLI Recipe Book
+
+Features:
+
+    Add recipes (title, ingredients, steps)
+
+    Tag recipes (vegetarian, quick, dinner)
+
+    Search by tag or ingredients
+
+    Export to .pdf or .txt
+
+
+# Assignment - 8
+Daily Coding Tracker
+
+Features:
+
+    Log daily coding sessions (topic, language, duration)
+
+    View streaks and average coding time
+
+    Track topics (DSA, system design, etc.)
+
+    Export stats to .csv
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+# week 2 --  
+# 250423 -- wednesday -- task assignment
+
+Git
+Objective: Learn modules, exception handling, and Git basics.
+
+Topics: List/dict comprehensions, os, datetime, Git workflow.
+
+Tasks:
+
+- (1) Write a mini file organizer that moves files by extension.
+
+- (2) Push all code to GitHub.
+
+- (3) Daily git practice: branch creation, commits, pull/push.
+
+Django Introduction
+Objective: Set up and understand a Django project.
+
+Topics: MTV architecture, project vs app, admin panel.
+
+Tasks:
+
+- (4)
+Set up a blog project.
+
+Add 2 models: Post and Comment.
+
+Enable CRUD via admin panel.
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+# week 2 
+# 250424 -- thurday -- task assignment
+
+Git Workflow | Solid Principles (Thursday | Friday) 
+Task for Apr 24 - Apr 25, 6:30 PM
+Description
+
+Go through the git course
+
+SOLID Principles
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+----------------------------------------------------------------
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+following are all the files and folder made during week2 for assignments and report for each day .
+
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-
+  ├─ Subfolders:
+    └── 250418--Apr-18--revision-
+    └── 250423--week-2--
+    └── 250424--week2--apr24-
+    └── v-v-sh
+    └── z__time--sn-
+  └─ Files:
+    └── .gitignore
+    └── file_folder_crawler_.py
+    └── file_folder_crawler_final_.py
+    └── result_of_all_files_and_folder.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-
+  ├─ Subfolders:
+    └── assignments
+    └── chatgpt-prompt
+    └── code_to_report
+    └── report
+  └─ Files:
+    └── file_6.json
+    └── file_6_a_.py
+    └── for-presentation--250419--.md
+    └── README.md
+    └── standup_reporting_250421_.md
+    └── todo-.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments
+  ├─ Subfolders:
+    └── 240418_third_day_CSV_JSON__
+    └── pack
+  └─ Files:
+    └── aaa__csv__final___FRAMEWORK__python__250422_10_56_.py
+    └── data copy.json
+    └── data.json
+    └── data__chatgpt_.json
+    └── file2.csv
+    └── file2_improved_.csv
+    └── file2_semi_.csv
+    └── file_1_.py
+    └── file_1_b_done_.py
+    └── file_1_b_done__chatgpt__cleaned_.py
+    └── file_1_b_done__chatgpt__md_.md
+    └── file_1_c_.py
+    └── file_2_.py
+    └── file_2__CHATGPT__JSON__CSV_COMBO_GGG__NOT_TESTED__FRAMEWORK__.py
+    └── file_2__CSV__improved__chatgpt_ 333__240521__.py
+    └── file_2__not_done_.py
+    └── file_2__semi_improved__chatgpt__.py
+    └── file_3.json
+    └── file_3_.py
+    └── file_3_hw__.py
+    └── file_3_hw__workouts_copy.json
+    └── file_4.csv
+    └── file_4.json
+    └── file_4_.py
+    └── file_4_b__update_product_going_on__.py
+    └── file_4__chatgpt_solution__.py
+    └── file_5.json
+    └── file_5_a_.py
+    └── file_8__ORIGINAL__.py
+    └── framework_.csv
+    └── framework_.json
+    └── framework_a8_.csv
+    └── myfile.json
+    └── workouts.json
+    └── wrong_file_name.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments\240418_third_day_CSV_JSON__
+  ├─ Subfolders:
+    └── json--for-assignment-8-
+    └── sent_files_with_comments__COMPLETED_ASSIGNMENT_
+  └─ Files:
+    └── ass8.csv
+    └── assignment8csvframework copy.py
+    └── assignment8csvframework__BUG__.py
+    └── assignment_a8_ copy.csv
+    └── file_8_prac_.py
+    └── file_8__report_sent_ copy.py
+    └── prac_8_222.csv
+    └── prac_8_222_.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments\240418_third_day_CSV_JSON__\json--for-assignment-8-
+  ├─ Subfolders: None
+  └─ Files:
+    └── json_assignment8_.json
+    └── json_file_handling__assignment_8_EXTRA___.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments\240418_third_day_CSV_JSON__\sent_files_with_comments__COMPLETED_ASSIGNMENT_
+  ├─ Subfolders: None
+  └─ Files:
+    └── assignment8csvframework.py
+    └── assignment8_.csv
+    └── assignment8_CSV_file_handling__240422_.md
+    └── assignment8__file_8__report_sent_.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments\pack
+  ├─ Subfolders:
+    └── __pycache__
+  └─ Files:
+    └── assignment8m4d22csvframework__ORIGINAL_250422__.py
+    └── csvframework.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\assignments\pack\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── assignment8m4d22csvframework.cpython-312.pyc
+    └── csvframework.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\chatgpt-prompt
+  ├─ Subfolders: None
+  └─ Files:
+    └── assignment-1--.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\code_to_report
+  ├─ Subfolders: None
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\report
+  ├─ Subfolders:
+    └── __pycache__
+  └─ Files:
+    └── assignment-2--library_book_tracker_assignment_apr18__csv_assignment_report__code__250421_.md
+    └── assignment-2-.py
+    └── assignment8csvframework.py
+    └── assignment8_.csv
+    └── assignment8_report__SENT__MARKDOWN_.md
+    └── assignment8__file_8__report_sent_.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250418--Apr-18--revision-\report\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── assignment8csvframework.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--
+  ├─ Subfolders:
+    └── task01
+    └── task03
+  └─ Files:
+    └── todo.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01
+  ├─ Subfolders:
+    └── foldercreation
+    └── misc
+    └── report
+  └─ Files:
+    └── task_1_a_.py
+    └── task_1_b_.py
+    └── task_1_c__FINAL__COMPLETE_SOLUTION_.py
+    └── task_1_d___FINAL__COMPLETE_SOLUTION_.py
+    └── task_1_e__SEND_FOR_REPORT_.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation
+  ├─ Subfolders:
+    └── destination
+  └─ Files:
+    └── moveit.txt
+    └── moveit22 copy.txt
+    └── moveit33 copy 2.txt
+    └── moveit33 copy.txt
+    └── moveit33.txt
+    └── result_of_all_files_and_folder.txt
+    └── test.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination
+  ├─ Subfolders:
+    └── py
+    └── txt
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination\py
+  ├─ Subfolders: None
+  └─ Files:
+    └── moveit.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination\txt
+  ├─ Subfolders: None
+  └─ Files:
+    └── moveit copy.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\misc
+  ├─ Subfolders: None
+  └─ Files:
+    └── f1.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\report
+  ├─ Subfolders:
+    └── task1_python_basics_
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\report\task1_python_basics_
+  ├─ Subfolders: None
+  └─ Files:
+    └── file_move_create_.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03
+  ├─ Subfolders:
+    └── DJANGO
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO
+  ├─ Subfolders:
+    └── blog-project
+    └── report
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project
+  ├─ Subfolders:
+    └── blogapp
+    └── chatapp
+    └── home
+  └─ Files:
+    └── db.sqlite3
+    └── manage.py
+    └── requirements.txt
+    └── time-.md
+
+    ### self note --- chatgpt report was made by replacing "chatapp", and then blogapp has all model post and comment for DJANGO
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\blogapp
+  ├─ Subfolders:
+    └── __pycache__
+  └─ Files:
+    └── asgi.py
+    └── settings.py
+    └── urls.py
+    └── wsgi.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\blogapp\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── settings.cpython-312.pyc
+    └── urls.cpython-312.pyc
+    └── wsgi.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\chatapp
+  ├─ Subfolders:
+    └── migrations
+    └── __pycache__
+  └─ Files:
+    └── admin.py
+    └── apps.py
+    └── models.py
+    └── tests.py
+    └── views.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\chatapp\migrations
+  ├─ Subfolders:
+    └── __pycache__
+  └─ Files:
+    └── 0001_initial.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\chatapp\migrations\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── 0001_initial.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\chatapp\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── admin.cpython-312.pyc
+    └── apps.cpython-312.pyc
+    └── models.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\home
+  ├─ Subfolders:
+    └── migrations
+    └── __pycache__
+  └─ Files:
+    └── admin.py
+    └── apps.py
+    └── models.py
+    └── tests.py
+    └── views.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\home\migrations
+  ├─ Subfolders:
+    └── __pycache__
+  └─ Files:
+    └── 0001_initial.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\home\migrations\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── 0001_initial.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\blog-project\home\__pycache__
+  ├─ Subfolders: None
+  └─ Files:
+    └── admin.cpython-312.pyc
+    └── apps.cpython-312.pyc
+    └── models.cpython-312.pyc
+    └── __init__.cpython-312.pyc
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task03\DJANGO\report
+  ├─ Subfolders: None
+  └─ Files:
+    └── 250423-wednesday-.docx
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250424--week2--apr24-
+  ├─ Subfolders:
+    └── report
+  └─ Files:
+    └── todo.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250424--week2--apr24-\report
+  ├─ Subfolders:
+    └── research
+  └─ Files:
+    └── report-apr24--TO-BE-SENT-.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250424--week2--apr24-\report\research
+  ├─ Subfolders: None
+  └─ Files:
+    └── preliminary_report_250424_.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\v-v-sh
+  ├─ Subfolders:
+    └── time-
+  └─ Files:
+    └── v-v-sh--notes---imp---everyday-notes--250418-.md
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\v-v-sh\time-
+  ├─ Subfolders: None
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\z__time--sn-
+  ├─ Subfolders:
+    └── New folder
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\z__time--sn-\New folder
+  ├─ Subfolders: None
+  └─ Files:
+    └── location-terminal--.md
+
+
+    
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+task (1) of chatgpt . make weekly report and export it to ms-word file . sample of the report is given below. task (1) of chatgpt should be done by looking at all the information provide here in this detailed files and report created during week 2 for doing tasks and assignment in python program and django program. task 1 should be in format and style as given below. don't change headings or only change words if absolutely necessary like change dates , topic of relevent task or assignment. 
+
+
+
+Internship Weekly Report 
+By XYZ 
+From 13th Jan  to  17th Jan, 2024 (Week 1) 
+  
+Assignments and Status: 
+Trello Card Link: https://trello.com/c/wtszC38U/3-day3-research-and-discussion  
+Date	Major Assignments	Log Hour	Status
+13 Jan	Learned about ;
+1.	Linux basic commands
+2.	Linux advanced commands
+3.	User management and permissions
+4.	Processes and Packages
+5.	Linux file systems
+6.	Kernel and boot sequence
+7.	process utilization, logging and init
+8.	Networking basics
+9.	Network sharing, subnetting, routing, config , dns and troubleshooting
+Link: Repo Link / report link	06:09	Completed
+14 Jan	Revised Topics:
+1.	Stdout, Stdin, Stderr: Covered redirection operators for handling input/output streams in Linux.
+2.	Environment Variables: Explained the env command for listing environment variables.
+3.	Cut Command: Demonstrated text extraction using the cut command.
+4.	Devices and Disk Anatomy: Studied device names, partition types (MBR, GPT), and filesystem structures.
+5.	Kernel Modules: Learned commands for loading/unloading kernel modules (lsmod, modprobe).
+6.	Upstart and Syslog: Discussed logging systems and their roles in troubleshooting.
+7.	DNS Process: Detailed DNS query flow from the client to the authoritative server.
+Shell Scripting:
+1.	Free Memory Alert Script: Alerts if memory usage exceeds 50%.
+2.	Old Log Removal Script: Automates the deletion of logs older than 7 days.
+3.	Active Users Report Script: Generates reports of active system users.
+Cron Jobs:
+1.	Scheduled scripts to run at specified times for periodic tasks (e.g., memory monitoring, log cleanup).
+Link: Daily Report Sajjan Khanal- Day 2
+08:32	Completed
+15 Jan	Day 3 Report Link
+
+Tasks Completed:
+1.	Enhanced the free memory alert script to send email notifications.
+2.	Modified cronjobs to integrate email alerts for scheduled tasks.
+3.	Set up and configured Postfix for email notifications triggered by scripts.
+
+Key Learnings:
+	Shell Scripting:
+1.	Improved the free memory alert script to log only the five most recent entries.
+2.	Integrated email functionality to send the latest alert log.
+	Cronjobs:
+1.	Edited cronjobs to include email alerts using the mail -s feature.
+2.	Avoided duplications by replacing MAILTO with explicit mail commands in scripts.
+	Email Notification with Postfix:
+1.	Installed and configured Postfix for sending email alerts.
+2.	Steps included setting up SMTP relay with Gmail, creating a secure SASL authentication file, and testing with a Gmail app password.
+	AWS Basics:
+1.	Created a Virtual Private Cloud (VPC) and an EC2 instance.
+2.	Installed an Nginx server on EC2 and hosted a static website.
+
+Challenges Faced:
+	Shell Script Modifications:
+1.	Overcame limited scripting experience through research and iterative drafting.
+2.	Leveraged knowledge of Stdin, Stdout, and Stderr for script improvements.
+	Postfix Implementation:
+1.	Resolved conflicts with Sendmail, which was using port 25.
+2.	Purged lingering Sendmail processes and restarted Postfix, ensuring successful email notifications.
+	AWS Setup: 
+1.	Initial difficulties in creating a VPC and EC2 were resolved with mentorship support.
+
+Additional Notes:
+1.	Postfix configuration was applied to other scripts for tasks like user activity reports and old log deletion.
+2.	Verified all email notifications were sent successfully.
+
+Link: Daily Report Sajjan Khanal- Day 3
+06:40	Completed
+16 Jan	Learned Topics:
+
+Elastic Load Balancing (ELB):
+●	Studied types of ELBs (ALB, NLB, GWLB) and their use cases.
+●	Learned cross-zone load balancing and target group configurations.
+●	Compared ALB, NLB, and Classic Load Balancer (CLB).
+AWS Lambda:
+●	Explored event-driven, serverless architecture.
+●	Learned to configure triggers, manage runtime limitations, and optimize functions for cost and performance.
+Amazon ECS and EKS:
+●	Compared ECS (integrated with Fargate for serverless containers) and EKS (Kubernetes-as-a-service).
+●	Studied the Kubernetes control plane and managed nodes in EKS.
+EC2 Auto Scaling:
+●	Configured Auto Scaling Groups (ASGs) with dynamic and scheduled policies.
+●	Integrated ASGs with ELB for high availability.
+●	Learned health checks to ensure traffic is routed only to healthy instances.
+Key Learnings:
+●	Elastic Load Balancing (ELB): Ensures high availability with ALB for advanced routing, NLB for low-latency TCP/UDP traffic, and fault tolerance across applications.
+●	AWS Lambda: Triggered by multiple AWS services, optimized for cold-start delays and concurrency limits.
+●	Amazon ECS and EKS: ECS automates container management, while EKS provides Kubernetes-as-a-service for workload portability.
+●	EC2 Auto Scaling: Handles traffic variability with effective scaling policies and maintains instance health.
+Challenges Faced:
+●	Distinguishing ALB and NLB: Difficulty in selecting the appropriate load balancer, resolved using AWS documentation and examples.
+●	Kubernetes Terminology in EKS: Struggled with concepts like control plane, pods, and node groups, addressed through Kubernetes documentation and hands-on practice.
+Additional Notes:
+●	Referred to AWS resources on ELB, Lambda, ECS vs. EKS, and EC2 Auto Scaling for deeper understanding.
+Link: Daily Report Sajjan Khanal- Day 4
+08:00
+
+	Completed
+17 Jan	Learned Topics:
+
+Elastic Load Balancing (ELB):
+●	Studied types of ELBs (ALB, NLB, GWLB) and their specific use cases.
+●	Learned about cross-zone load balancing, sticky sessions, and target group configurations.
+●	Compared ALB, NLB, and Classic Load Balancer (CLB).
+Amazon Elastic Block Store (EBS):
+●	Explored EBS volume types (gp3, gp2, io1, io2, st1, sc1) and their performance characteristics.
+●	Learned how to create, attach, and resize volumes for diverse workloads.
+●	Studied EBS snapshots for data backup and disaster recovery.
+
+Amazon EC2 (Elastic Compute Cloud):
+●	Examined EC2 instance types for optimized workload selection.
+●	Configured key pairs, security groups, and launch templates for deployment automation.
+●	Learned cost-saving strategies like Reserved Instances, Spot Instances, and Savings Plans.
+EC2 Auto Scaling:
+●	Configured Auto Scaling Groups (ASGs) with dynamic and scheduled scaling policies.
+●	Integrated ASGs with ELB for traffic distribution and high availability.
+●	Learned how health checks ensure only functional instances serve traffic.
+Collaboration Using GitHub:
+●	Created a GitHub account for project collaboration.
+●	Uploaded scripts to the Week1 repository for version control.
+●	Presented a weekly update covering AWS service learnings and progress.
+
+Key Learnings:
+●	Elastic Load Balancing (ELB): Ensures fault tolerance and high availability with ALB for HTTP/HTTPS traffic and NLB for low-latency TCP/UDP scenarios.
+●	Amazon EBS: Offers persistent, scalable storage solutions with snapshots enabling backup and disaster recovery.
+●	Amazon EC2: Provides flexible compute capacity with tools for efficient cost and workload management.
+●	EC2 Auto Scaling: Ensures elasticity and fault tolerance, adapting dynamically to traffic variations.
+●	GitHub Collaboration: Streamlines teamwork with version control and structured repositories.
+Challenges Faced:
+●	Distinguishing ELB Types: Initially struggled to identify appropriate ELB types for specific use cases; resolved using AWS documentation and examples.
+●	EBS Snapshots: Faced difficulty understanding snapshot costs and lifecycle management; addressed through AWS best practices.
+●	GitHub Setup: Encountered minor challenges setting up repositories and uploading scripts, resolved with guidance from documentation and the mentor.
+
+Additional Notes:
+●	Referred to AWS resources on Elastic Load Balancing (ELB), Amazon EBS, and Amazon EC2 for detailed understanding.
+Link: Daily Report Sajjan Khanal- Day 5 DevOps-Internship-Week-1-Presentation.pdf
+	Completed
+ 
+Outcomes / Learning:  
+•	Successfully completed the first week of internship at Cloudtech Service as a DevOps intern, which was both productive and educational.
+o	Built a strong foundation in Linux, covering:
+o	Basic and advanced commands
+o	User management and permissions
+o	File systems and kernel operations
+o	Networking basics, including subnetting, routing, and DNS troubleshooting
+•	Explored shell scripting, including:
+o	Scripts for memory monitoring, log cleanup, and user activity reporting
+o	Automated tasks using cron jobs
+Conclusion:
+The first week laid a strong groundwork for my journey as a DevOps intern, equipping me with essential Linux and AWS skills while highlighting the significance of automation and efficient resource management. The challenges faced, such as implementing Postfix for email alerts and navigating complex AWS configurations, were valuable learning opportunities that improved my problem-solving and research abilities. By combining theoretical knowledge with practical applications, this week has set a positive trajectory for my internship and contributed significantly to my technical proficiency and confidence in DevOps practices. 
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+f0r task1 for chatgpt, codes and report created during week 2 from april 18 to april 23 are as follows .
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+====================================================
+====================================================
+====================================================
+====================================================
+

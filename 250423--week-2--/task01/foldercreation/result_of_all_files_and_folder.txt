@@ -1,0 +1,31 @@
+
+Starting recursive listing from: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation
+
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation
+  ├─ Subfolders:
+    └── destination
+  └─ Files:
+    └── file_folder_crawler_ copy.py
+    └── moveit.txt
+    └── moveit22 copy.txt
+    └── moveit33 copy 2.txt
+    └── moveit33 copy.txt
+    └── moveit33.txt
+    └── test.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination
+  ├─ Subfolders:
+    └── py
+    └── txt
+  └─ Files: None
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination\py
+  ├─ Subfolders: None
+  └─ Files:
+    └── moveit.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250423--week-2--\task01\foldercreation\destination\txt
+  ├─ Subfolders: None
+  └─ Files:
+    └── moveit copy.txt

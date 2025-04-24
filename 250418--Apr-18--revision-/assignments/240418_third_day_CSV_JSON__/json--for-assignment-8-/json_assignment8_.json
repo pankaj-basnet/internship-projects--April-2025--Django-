@@ -1,5 +1,4 @@
 [
-   
     {
         "id": 4,
         "topic": "StreamIO",
@@ -25,7 +24,7 @@
         "subscribed": false,
         "due date": "2025-05-20 14:15:00",
         "average_coding_time": 1.5,
-        "finished date": "2025-04-22 16:45:00",
+        "finished date": "2025-04-22 10:45:00",
         "streak": 3,
         "coding_duration": 6,
         "finished_dates": [
@@ -37,6 +36,23 @@
     {
         "id": 1,
         "topic": "LLM",
+        "language": "Python3",
+        "start date": "2025-04-15 10:00:00",
+        "subscribed": true,
+        "due date": "2025-05-15 10:00:00",
+        "average_coding_time": 3.5,
+        "finished date": "2025-04-23 14:00:00",
+        "streak": 1,
+        "coding_duration": 5,
+        "finished_dates": [
+            [
+                "2025-04-20 14:00:00"
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "topic": "JSONSessionOne",
         "language": "python",
         "start date": "2025-04-15 10:00:00",
         "subscribed": true,
@@ -48,6 +64,57 @@
         "finished_dates": [
             [
                 "2025-04-20 14:00:00"
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "topic": "JSONSessionOne",
+        "language": "python",
+        "start date": "2025-04-15 10:00:00",
+        "subscribed": true,
+        "due date": "2025-05-15 10:00:00",
+        "average_coding_time": 0.0,
+        "finished date": "2025-04-21 19:00:00",
+        "streak": 1,
+        "coding_duration": 6,
+        "finished_dates": [
+            [
+                "2025-04-21 19:00:00"
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "topic": "JSONSessionOne",
+        "language": "python",
+        "start date": "2025-04-15 10:00:00",
+        "subscribed": true,
+        "due date": "2025-05-15 10:00:00",
+        "average_coding_time": 0.0,
+        "finished date": "2025-04-22 23:00:00",
+        "streak": 1,
+        "coding_duration": 7,
+        "finished_dates": [
+            [
+                "2025-04-22 23:00:00"
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "topic": "JSONSessionOne",
+        "language": "python",
+        "start date": "2025-04-15 10:00:00",
+        "subscribed": true,
+        "due date": "2025-05-15 10:00:00",
+        "average_coding_time": 0.0,
+        "finished date": "2025-04-22 23:00:00",
+        "streak": 1,
+        "coding_duration": 7,
+        "finished_dates": [
+            [
+                "2025-04-22 23:00:00"
             ]
         ]
     }
