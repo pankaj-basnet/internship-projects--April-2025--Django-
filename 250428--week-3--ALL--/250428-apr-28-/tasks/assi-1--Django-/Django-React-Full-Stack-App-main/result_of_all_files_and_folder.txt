@@ -1,0 +1,115 @@
+
+Starting recursive listing from: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main
+
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main
+  ├─ Subfolders:
+    └── backend
+    └── frontend
+  └─ Files:
+    └── .gitignore
+    └── file_folder_crawler_final_.py
+    └── result_of_all_files_and_folder.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\backend
+  ├─ Subfolders:
+    └── .choreo
+    └── api
+    └── backend
+  └─ Files:
+    └── .gitignore
+    └── manage.py
+    └── Procfile
+    └── requirements.txt
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\backend\.choreo
+  ├─ Subfolders: None
+  └─ Files:
+    └── endpoints.yaml
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\backend\api
+  ├─ Subfolders:
+    └── migrations
+  └─ Files:
+    └── admin.py
+    └── apps.py
+    └── models.py
+    └── serializers.py
+    └── tests.py
+    └── urls.py
+    └── views.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\backend\api\migrations
+  ├─ Subfolders: None
+  └─ Files:
+    └── 0001_initial.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\backend\backend
+  ├─ Subfolders: None
+  └─ Files:
+    └── asgi.py
+    └── settings.py
+    └── urls.py
+    └── wsgi.py
+    └── __init__.py
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend
+  ├─ Subfolders:
+    └── public
+    └── src
+  └─ Files:
+    └── .eslintrc.cjs
+    └── .gitignore
+    └── index.html
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── vite.config.js
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\public
+  ├─ Subfolders: None
+  └─ Files:
+    └── vite.svg
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\src
+  ├─ Subfolders:
+    └── assets
+    └── components
+    └── pages
+    └── styles
+  └─ Files:
+    └── api.js
+    └── App.jsx
+    └── constants.js
+    └── main.jsx
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\src\assets
+  ├─ Subfolders: None
+  └─ Files:
+    └── react.svg
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\src\components
+  ├─ Subfolders: None
+  └─ Files:
+    └── Form.jsx
+    └── LoadingIndicator.jsx
+    └── Note.jsx
+    └── ProtectedRoute.jsx
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\src\pages
+  ├─ Subfolders: None
+  └─ Files:
+    └── Home.jsx
+    └── Login.jsx
+    └── NotFound.jsx
+    └── Register.jsx
+
+📁 Folder: D:\GROW_CTS\PANKAJ-PROJECTS-\250428--week-3--ALL--\250428-apr-28-\tasks\assi-1--Django-\Django-React-Full-Stack-App-main\frontend\src\styles
+  ├─ Subfolders: None
+  └─ Files:
+    └── Form.css
+    └── Home.css
+    └── LoadingIndicator.css
+    └── Note.css
