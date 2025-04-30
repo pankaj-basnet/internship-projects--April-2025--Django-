@@ -6,7 +6,7 @@ import "../styles/Form.css"
 import LoadingIndicator from "./LoadingIndicator";
 
 function Form({ route, method }) {
-    const [username, setUsername] = useState("");
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
@@ -18,10 +18,12 @@ function Form({ route, method }) {
         e.preventDefault();
 
         try {
-            const res = await api.post(route, { username, password })
+            const res = await api.post(route, { email, password })
             if (method === "login") {
-                localStorage.setItem(ACCESS_TOKEN, res.data.access);
-                localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
+                localStorage.setItem(ACCESS_TOKEN, res.data.access); // isn= 
+                localStorage.setItem(REFRESH_TOKEN, res.data.refresh); // isn=
+                // localStorage.setItem(ACCESS_TOKEN, "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1ODQxNDU3LCJpYXQiOjE3NDU4Mzk2NTcsImp0aSI6ImI5ZmY0OWE5ZmEwOTQzNDhhNzU4NGViYjhiNGRlNTMyIiwidXNlcl9pZCI6NH0.3geNxKszucaVGnDMawDcOuyqz86kiDK5wUKBQ4AGlYs" ); // sn= 
+                // localStorage.setItem(REFRESH_TOKEN, "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTkyNjA1NywiaWF0IjoxNzQ1ODM5NjU3LCJqdGkiOiJiNzI4OTU4NjU4OTg0M2Y2OWRlODM0ZTNiZjQ2ZjdkOCIsInVzZXJfaWQiOjR9.VD1Ap9JtFUa16lgf6xsMHnqkffTTuo0JJZmnnZ1iUFc"); // sn=
                 navigate("/")
             } else {
                 navigate("/login")
@@ -39,9 +41,9 @@ function Form({ route, method }) {
             <input
                 className="form-input"
                 type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="email"
             />
             <input
                 className="form-input"

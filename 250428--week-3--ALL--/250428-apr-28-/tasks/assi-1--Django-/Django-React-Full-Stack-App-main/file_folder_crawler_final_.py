@@ -64,6 +64,6 @@ if __name__ == "__main__":
     root_directory = "."  # Replace with your folder path
     output_txt_file = "result_of_all_files_and_folder.txt"
     # skip_these_folders = ['__pycache__', 'node_modules', '.git']  # Add your folders to skip
-    skip_these_folders = ['.git', '250416-', '250417--data-structure-', 'venv-0428']  # Add your folders to skip
+    skip_these_folders = ['.git', '250416-', '250417--data-structure-', 'venv-0428', 'node_modules']  # Add your folders to skip
 
     list_files_and_folders_recursively(root_directory, output_txt_file, skip_these_folders)

@@ -32,6 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+AUTH_USER_MODEL = "api.User"
+
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
@@ -41,9 +43,23 @@ REST_FRAMEWORK = {
     ],
 }
 
+# SIMPLE_JWT = {
+#     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
+#     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+# }
+
 SIMPLE_JWT = {
+    # "ACCESS_TOKEN_LIFETIME": timedelta(
+    #     seconds=ENV.int("AUTH_JWT_ACCESS_TOKEN_TIMEOUT", default=86400)
+    # ),
+    # "REFRESH_TOKEN_LIFETIME": timedelta(
+    #     seconds=ENV.int("AUTH_JWT_REFRESH_TOKEN_TIMEOUT", default=604800)
+    # ),
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    # "ROTATE_REFRESH_TOKENS": True,
+    # "SIGNING_KEY": ENV.str("AUTH_JWT_SIGNING_KEY"),
+    "USER_ID_FIELD": "uuid",
 }
 
 # Application definition
@@ -56,6 +72,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "api",
+    "blog",
     "rest_framework",
     "corsheaders",
 ]
@@ -76,7 +93,10 @@ ROOT_URLCONF = "backend.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+
+        # "DIRS": [],
+        'DIRS': [BASE_DIR / "templates"],  # Added this line
+
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -157,3 +177,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWS_CREDENTIALS = True
+
+
+## sending email for password change (sn=) #250429
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = "pankajbasnet2023@gmail.com"
+EMAIL_HOST_PASSWORD = "wyco gblm pdta hgfs"
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER

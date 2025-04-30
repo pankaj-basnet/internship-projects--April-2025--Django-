@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Note
+from .models import Note, User
 
 
 class NoteAdmin(admin.ModelAdmin):
@@ -7,3 +7,9 @@ class NoteAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Note, NoteAdmin)
+
+class UserAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(User, UserAdmin)
